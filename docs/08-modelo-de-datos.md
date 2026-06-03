@@ -29,6 +29,9 @@ class tenant {
   + email: VARCHAR(100)
   + telefono: VARCHAR(20)
   + regimen_tributario: VARCHAR(30)
+  + logo_url: VARCHAR(500)
+  + color_primario: VARCHAR(7)
+  + color_secundario: VARCHAR(7)
   + plan: VARCHAR(30)
   + estado: VARCHAR(20)
   + certificado_p12: BYTEA
@@ -598,6 +601,9 @@ Entidad raíz del modelo multitenant. Cada registro es un taller independiente.
 | `email` | VARCHAR(100) | | Email de contacto del taller |
 | `telefono` | VARCHAR(20) | | Teléfono del taller |
 | `regimen_tributario` | VARCHAR(30) | ✅ | MYPE Tributario, General, RUS |
+| `logo_url` | VARCHAR(500) | | URL del logo del taller para personalización de marca |
+| `color_primario` | VARCHAR(7) | | Color primario en hex (ej: `#1a73e8`) para la interfaz del tenant |
+| `color_secundario` | VARCHAR(7) | | Color secundario en hex (ej: `#34a853`) para la interfaz del tenant |
 | `plan` | VARCHAR(30) | | Plan de suscripción SaaS |
 | `estado` | VARCHAR(20) | | ACTIVO, SUSPENDIDO, BAJA |
 | `certificado_p12` | BYTEA | ✅ | Archivo del certificado digital |

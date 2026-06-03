@@ -1,5 +1,7 @@
 # Prioridad de Implementación y Sprint 1 — LUNORION LABS
 
+> **Nota:** El plan detallado del Sprint 01 con tareas asignadas por miembro está en [`sprints/01-base-del-sistema/tareas-sprint-01.md`](../sprints/01-base-del-sistema/tareas-sprint-01.md).
+
 ---
 
 ## Prioridad General

@@ -48,7 +48,11 @@ Response 200:
   "tenant": {
     "id": "uuid",
     "ruc": "20123456789",
-    "razonSocial": "Taller Mecánico SAC"
+    "razonSocial": "Taller Mecánico SAC",
+    "nombreComercial": "Taller Mecánico",
+    "logoUrl": "https://cdn.taller.com/logo.png",
+    "colorPrimario": "#1a73e8",
+    "colorSecundario": "#34a853"
   }
 }
 ```
